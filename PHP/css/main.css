@@ -1,0 +1,59 @@
+@import url('baguetteBox.min.css');
+@import url('loader.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css');
+@import url('https://cdn.datatables.net/v/bs5/dt-1.12.1/datatables.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+@import url("https://unpkg.com/dropzone@6.0.0-beta.1/dist/dropzone.css");
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.min.css");
+
+
+.dataTables_length {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dataTables_filter {
+  margin-top: 10px !important;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.list li {
+  margin-right: 30px;
+}
+
+.times {
+  color: brown;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.myToast {
+  position: fixed !important;
+  bottom: 30px;
+  right: 10px;
+  z-index: 100;
+}
+
+.toastsuccess {
+  background-color: #059862 !important;
+  border: 0 !important;
+  color: #fff;
+}
+
+.toastError {
+  background-color: #860c0ce3;
+}
+
+.toastWarning {
+  background-color: #a7a40dd0;
+}

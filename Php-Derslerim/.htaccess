@@ -1,0 +1,7 @@
+<IfModule mod_headers.c>
+  Header set Content-Control "no-cache,no-store , must-revalidate"
+  Header set Expires " Sun, 01 Jan 1981 01:00:00GMT"
+  Header set Pragma "no-cahche"
+  Header set Content-Type "text/html; charset=utf-8"
+</IfModule>
+ErrorDocument 404 http://localhost/Php-Derslerim/OOP/index.html

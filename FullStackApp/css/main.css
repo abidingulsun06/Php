@@ -1,0 +1,112 @@
+@import url('baguetteBox.min.css');
+@import url('loader.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css');
+@import url('https://cdn.datatables.net/v/bs5/dt-1.12.1/datatables.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+@import url("https://unpkg.com/dropzone@6.0.0-beta.1/dist/dropzone.css");
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.min.css");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.blue {
+  color: #11800b !important;
+}
+
+.outline {
+  outline: none !important;
+}
+
+.my-nav {
+  list-style-type: none !important;
+}
+
+.myToast {
+  position: fixed !important;
+  bottom: 30px;
+  right: 10px;
+  z-index: 100;
+}
+
+.toastsuccess {
+  background-color: #059862 !important;
+  border: 0 !important;
+  color: #fff;
+}
+
+.toastError {
+  background-color: #860c0ce3;
+}
+
+.toastWarning {
+  background-color: #a7a40dd0;
+}
+
+/*Login screen start*/
+.myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.bg-login {
+  width: 100%;
+  height: 100vh;
+  background: url('../videos/videoplayback.mp4');
+}
+
+.form-field {
+  background-color: #000000;
+  box-shadow: #057d0774 0px 5px 15px;
+  z-index: 100;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 140px;
+  height: 500px;
+  border-top: 3px solid #057d0774;
+  border-bottom: 3px solid #057d0774;
+}
+
+::placeholder {
+  color: rgb(97, 96, 96);
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.blue-bg {
+  background-color: #0a8518;
+  color: #ffffff !important;
+}
+
+.form-item {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #0c7504 !important;
+  overflow: hidden;
+  outline: none;
+  color: #fff !important;
+}
+
+/*Login screen end*/
+
+/*Table Start*/
+
+.thead-font {
+  font-size: 11px !important;
+}
+
+/*Table End*/
+
+
+@media (max-width:768px) {
+  .form-field {
+    width: 100%;
+  }
+}

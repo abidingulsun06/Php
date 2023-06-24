@@ -1,0 +1,27 @@
+{
+  "lesson": "php",
+  "lessonNo": 126,
+  "languages": [
+    "PHP",
+    "REACT JS",
+    "NODE JS",
+    "ANGULAR JS"
+  ],
+  "person": [
+    {
+      "name": "Abidin",
+      "lastName": "Gulsun",
+      "age": 23
+    },
+    {
+      "name": "Ayşen",
+      "lastName": "Kandaz",
+      "age": 42
+    },
+    {
+      "name": "Zümra",
+      "lastName": "Kandaz",
+      "age": 15
+    }
+  ]
+}

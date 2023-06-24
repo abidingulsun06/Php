@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^menu/([0-9a-zA-Z-_]+)$ index.php?menu=$1 [QSA]

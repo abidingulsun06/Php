@@ -1,0 +1,95 @@
+.myToast {
+  position: fixed !important;
+  bottom: 30px;
+  right: 10px;
+  z-index: 100;
+
+}
+
+.mySpinner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.toastsuccess {
+  background-color: #059862 !important;
+  border: 0 !important;
+  color: #fff;
+}
+
+.toastError {
+  background-color: #860c0ce3;
+}
+
+.toastWarning {
+  background-color: #a7a40dd0;
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
+}
+
+.btn-update {
+  background: #1f71ec;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  max-height: 30px;
+  max-width: 30px;
+  padding: 5px 6px;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #1f71ec;
+}
+
+.delete {
+  background: #c82331;
+  border: 1px solid #c82331;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+
+  max-height: 30px;
+  max-width: 30px;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  padding: 5px 6px;
+}
+
+.btn-update:hover {
+  background-color: #fff;
+  color: #1f71ec;
+
+}
+
+.delete:hover {
+  background-color: #fff;
+  color: #c82331;
+}
+
+.my-f1 {
+  background-color: #159d1c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 70px;
+}
+
+.my-f2 {
+  background-color: #f5cd48;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+  height: 25px;
+}

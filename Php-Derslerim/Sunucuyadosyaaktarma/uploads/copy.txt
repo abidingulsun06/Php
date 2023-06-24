@@ -1,0 +1,1 @@
+File ve path işlemleri selam

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^([0-9a-zA-Z-_]+)$ htaccess.php?page=$1
+RewriteRule ^([0-9a-zA-Z-_]+)/menu/([0-9a-zA-Z-_]+)$ htaccess.php?page=$1&menu=$2
+ErrorDocument 404 http://localhost/Php-Derslerim/OOP/index.html
